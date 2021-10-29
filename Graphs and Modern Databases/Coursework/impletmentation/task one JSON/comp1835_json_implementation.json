@@ -1,0 +1,101 @@
+{
+    "grandPrixData":
+        {
+            "year": 2020, 
+            "round":1, 
+            "location":"Austria",
+            "date":"05-07-2020", 
+            "circuit": "Red Bull Ring",
+            "drivers": 
+            [
+                {
+                    "name": "Bottas",
+                    "number": 77,
+                    "team": "Mercedes",
+                    "qualifying" :
+                    {
+                        "Times": ["1:01.939", "1:03.015", "1:04.111"],
+                        "Position": 1 
+                    },
+                    "fastestLap": 
+                    {
+                        "lapNumber": 68,
+                        "time": "1:07.475",
+                        "averageSpeed": 230.378
+                    },
+                    "raceResult":
+                    {
+                        "position": 1,
+                        "time/retired": "1:30.55.739",
+                        "points": 25
+                    }
+                },
+                {
+                    "name": "Leclerc",
+                    "number": 16,
+                    "team": "Ferrari",
+                    "qualifying" :
+                    {
+                        "Times": ["1:03.923", "1:04.041","1:04.500"],
+                        "Position": 7
+                    },
+                    "fastestLap": 
+                    {
+                        "lapNumber": 64,
+                        "time": "1:07.901",
+                        "averageSpeed": 228.933
+                    },
+                    "raceResult":
+                    {
+                        "position": 2,
+                        "time/retired": "+2.700",
+                        "points": 18
+                    }
+                },
+                {
+                    "name": "Norris",
+                    "number": 4,
+                    "team": "McLaren Renault",
+                    "qualifying" :
+                    {
+                        "Times": ["1:03.923", "1:04.041","1:04.500"],
+                        "Position": 7
+                    },
+                    "fastestLap": 
+                    {
+                        "lapNumber": 64,
+                        "time": "1:07.901",
+                        "averageSpeed": 228.933
+                    },
+                    "raceResult":
+                    {
+                        "position": 3,
+                        "time/retired": "+5.491",
+                        "points": 16
+                    }
+                },
+                {
+                    "name": "Hamilton",
+                    "number": 44,
+                    "team": "Mercedes",
+                    "qualifying" :
+                    {
+                        "Times": ["1:02.951","1:03.096","1:04.198"],
+                        "Position": 2
+                    },
+                    "fastestLap": 
+                    {
+                        "lapNumber": 67,
+                        "time": "1:07.712",
+                        "averageSpeed": 229.572
+                    },
+                    "raceResult":
+                    {
+                        "position": 4,
+                        "time/retired": "+5.689",
+                        "points": 12
+                    }
+                }
+            ]
+        }
+}

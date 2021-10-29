@@ -1,0 +1,23 @@
+{
+    "name": "",
+    "number": ,
+    "team": "",
+    "qualifying" :
+    {
+        "Times": ["","",""],
+        "Position": 
+    },
+    "fastestLap": 
+    {
+        "lapNumber": ,
+        "time": "",
+        "averageSpeed": 
+    },
+    "raceResult":
+    {
+        "position": ,
+        "time/retired": "",
+        "points": ,
+        "laps": 
+    }
+}

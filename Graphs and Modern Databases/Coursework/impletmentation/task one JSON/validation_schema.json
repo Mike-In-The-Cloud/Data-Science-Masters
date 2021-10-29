@@ -1,0 +1,147 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "type": "object",
+    "properties": {
+      "grandPrixData": {
+        "type": "object",
+        "properties": {
+          "year": {
+            "type": "integer"
+          },
+          "round": {
+            "type": "integer"
+          },
+          "location": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string"
+          },
+          "circuit": {
+            "type": "string"
+          },
+          "note": {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "string"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "drivers": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "number": {
+                    "type": "integer"
+                  },
+                  "team": {
+                    "type": "string"
+                  },
+                  "qualifying": {
+                    "type": "object",
+                    "properties": {
+                      "Times": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      },
+                      "Position": {
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "Times",
+                      "Position"
+                    ]
+                  },
+                  "fastestLap": {
+                    "type": "object",
+                    "properties": {
+                      "lapNumber": {
+                        "type": "integer"
+                      },
+                      "time": {
+                        "type": "string"
+                      },
+                      "averageSpeed": {
+                        "type": "number"
+                      }
+                    },
+                    "required": [
+                      "lapNumber",
+                      "time",
+                      "averageSpeed"
+                    ]
+                  },
+                  "raceResult": {
+                    "type": "object",
+                    "properties": {
+                      "position": {
+                        "type": "integer"
+                      },
+                      "time/retired": {
+                        "type": "string"
+                      },
+                      "points": {
+                        "type": "integer"
+                      },
+                      "laps": {
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "position",
+                      "time/retired",
+                      "points",
+                      "laps"
+                    ]
+                  }
+                },
+                "required": [
+                  "name",
+                  "number",
+                  "team",
+                  "qualifying",
+                  "fastestLap",
+                  "raceResult"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "year",
+          "round",
+          "location",
+          "date",
+          "circuit",
+          "note",
+          "drivers"
+        ]
+      }
+    },
+    "required": [
+      "grandPrixData"
+    ]
+  }
